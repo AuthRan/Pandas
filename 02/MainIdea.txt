@@ -1,0 +1,18 @@
+1. Understand the data set
+2. Identify the problems (clean, duplicates, or any issue)
+3. Plan next steps
+
+
+
+After getting the data in your code:
+Problems
+1. Columns, Rows?
+2. What type of?
+3. Is missing data?
+For this we use pandas inbuilt func info() -> Concise summary 
+(no of rows and columns,
+ column names,
+ data type(int64, float64, object),
+ not null(means koi khali hai ki nahi),
+ memory usage of the data frame
+ )

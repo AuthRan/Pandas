@@ -1,0 +1,15 @@
+Mean - Gives the average value of given values
+
+
+Standard Deviation - How much the values in the column are spread out or different from the average
+- Small STD: Woh values jo average ke kaafi close hain [48, 49, 50, 51, 52]
+- Large STD: Woh values jo average se kaafi dur hain [10, 20, 40, 70, 90]
+Why need std? -> It tells us about the data ki consistency, like small std means data hamara consistent hai yani zyadatr employees ki age aur sallery kaafi similar hai and also it is used to detect variation in data
+
+
+25% - First quator of data 
+Agr aap apne numbers ko first to last sort karoge then 25% of the data will be below this value
+Eg: you have sallary of employees
+25% denotes that sallary jo tumhare least paid workers ki hai
+50% denotes that sallary jo ek avg worker kama raha
+75% denotes that sallary jo tumhare company mein top performer kama raha

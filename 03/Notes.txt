@@ -1,0 +1,2 @@
+Describe Method
+It is a pandas library tool that provides a summary of discriptive statistics for numerical columns in your data frame
