@@ -1,0 +1,7 @@
+If there is any missing data then 
+Nan(not a number)
+None(for object data types)
+
+To check for Nan we use isNull()
+True - Nan is missing
+False - value is present
