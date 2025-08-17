@@ -1,0 +1,5 @@
+sum()
+mean()
+count()
+min()/max()
+std() - Standard deviation
