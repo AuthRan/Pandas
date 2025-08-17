@@ -1,0 +1,9 @@
+When you work with large dataset often times you need to merge them
+Merging means do ya do se jyada data frames ki rows ko combine karna based on a common key column
+pd.merge(df1, df2, on="Commo_column_name", how="Type of join")
+Type of joins - 
+    inner : join only common rows
+    outer : join everything and put NaN where there is no data
+    left : left ke saare data hone chahiye and jiska right exist nhi krta uska NaN
+    right : vice-versa
+    cross : Agr ek df mein m rows hai and nother mein n rows then yeh m x n return krega
