@@ -1,0 +1,14 @@
+Interpolation : It means NaN ko ek estimated value se replace karna using techniques like linear Interpolation or polynomial Interpolation.
+1. Preserve Data Integrity.
+2. Smooth Trends.
+3. Avoid Data Loss.
+
+Syntax : df.interpolate(method="linear", axis=0, implace=True)
+axis means interpolation ko kaha apply karna hai 0 means rows 1 means columns
+
+When to use interpolation ?
+1.Timer Series Data
+2.Numeric data with Trends
+3.Avoid Dropping rows
+
+Problems : It can't be worked with data like names id etc and it assumes predictable pattern which might not always exist.

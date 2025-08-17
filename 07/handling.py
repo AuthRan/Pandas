@@ -31,5 +31,8 @@ print(df)
 # 2. Handle that data using fillna()
 # fillna(0, inplace=True)  -> fill 0 wherever you find 0
 # But in real life you might want to fill the None with something meaningful like avg/mean
-df['Age'].fillna(df["Age"].mean(), inplace=True)
-print(df)
+# df['Age'].fillna(df["Age"].mean(), inplace=True)
+# print(df)
+
+# Let's try interpolation
+df['Age'] = df["Age"].interpolate(method = "Linear")
